@@ -1,0 +1,13 @@
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\bin\Debug\netcoreapp3.1\ForstaUppgiften.exe
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\bin\Debug\netcoreapp3.1\ForstaUppgiften.deps.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\bin\Debug\netcoreapp3.1\ForstaUppgiften.runtimeconfig.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\bin\Debug\netcoreapp3.1\ForstaUppgiften.runtimeconfig.dev.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\bin\Debug\netcoreapp3.1\ForstaUppgiften.dll
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\bin\Debug\netcoreapp3.1\ForstaUppgiften.pdb
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\obj\Debug\netcoreapp3.1\ForstaUppgiften.csprojAssemblyReference.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\obj\Debug\netcoreapp3.1\ForstaUppgiften.AssemblyInfoInputs.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\obj\Debug\netcoreapp3.1\ForstaUppgiften.AssemblyInfo.cs
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\obj\Debug\netcoreapp3.1\ForstaUppgiften.csproj.CoreCompileInputs.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\obj\Debug\netcoreapp3.1\ForstaUppgiften.dll
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\obj\Debug\netcoreapp3.1\ForstaUppgiften.pdb
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ForstaUppgiften\ForstaUppgiften\obj\Debug\netcoreapp3.1\ForstaUppgiften.genruntimeconfig.cache
