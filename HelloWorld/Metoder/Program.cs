@@ -6,9 +6,25 @@ namespace Metoder
     {
         static void Main(string[] args)
         {
-            SumOfTheGivenNumbers();
-            Sorting();
-            Sorting();
+            int theResult = SumOfTheGivenNumbers();
+            Console.WriteLine("The result of the addition is " + theResult);
+
+            string[] givenNames = Backward();
+            DisplayArray(givenNames);
+
+            var (theBiggest, theSmallest) = Sorting();
+            Console.WriteLine("The biggest number is " + theBiggest);
+            Console.WriteLine("The smallest number is " + theSmallest);
+        }
+
+        /** A method for show the content of an array.
+         */
+        private static void DisplayArray(string[] givenNames)
+        {
+            foreach (var theNames in givenNames)
+            {
+                Console.WriteLine(theNames);
+            }
         }
 
         /** A method for get some numbers in a list and add the content for return the result.
@@ -20,7 +36,7 @@ namespace Metoder
             var numbers = new int[5];
             for (int i = 0; i < numbers.Length; i++)
             {
-                Console.WriteLine("Please write your numbers.");
+                Console.WriteLine("Please write your number.");
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
             for (int i = 0; i < numbers.Length; i++)
@@ -28,33 +44,37 @@ namespace Metoder
                 sum = sum + numbers[i];
             }
 
-            Console.WriteLine("The result of the addition is " + sum);
-
             return sum;
         }
 
         /** A method for get a bounch of words (called names) in a list and make the list revers.
          */
-        private static void Backward()
+        private static string[] Backward()
         {
-            var names = new string[5];
+            string[] names = new string[5];
+            string[] reversedNames = new string[5];
 
-            for (int i = 0; i < names.Length; i++)
+            for (int counter = 0; counter < names.Length; counter++)
             {
-                Console.WriteLine("Please write some names?");
-                names[i] = Console.ReadLine();
+                Console.WriteLine("Please write some name.");
+                names[counter] = Console.ReadLine();
             }
-            for (int i = 4; i >= 0; i--)
+
+            int i = 4;
+            for (int j = 0; j <= reversedNames.Length && i >= 0; j++)
             {
-                Console.WriteLine(names[i]);
+                    reversedNames [j] = names[i];
+                    i--;
             }
+                
+            return reversedNames;
         }
 
         /**A method for find the biggest and the smallest number in a list.
          * 
          * I googled Bubblesort algorithm.
          */
-        private static void Sorting()
+        private static (int theBiggest, int theSmallest) Sorting()
         {
             var numbers = new int[5];
             int temp;
@@ -82,10 +102,8 @@ namespace Metoder
             theBiggest = numbers[4];
             theSmallest = numbers[0];
 
-            Console.WriteLine("The biggest number is:  " + theBiggest);
-            Console.WriteLine("The smallest number is: " + theSmallest);
+            return (theBiggest, theSmallest);
         }
     }
 
-    
 }
