@@ -56,7 +56,7 @@ namespace Metoder
 
             for (int counter = 0; counter < names.Length; counter++)
             {
-                Console.WriteLine("Please write some name.");
+                Console.WriteLine("Please write some name/word.");
                 names[counter] = Console.ReadLine();
             }
 
@@ -83,6 +83,7 @@ namespace Metoder
 
             for (int i = 0; i < numbers.Length; i++)
             {
+                Console.WriteLine("Please write some number.");
                 numbers[i] = Convert.ToInt32(Console.ReadLine());
             }
 
