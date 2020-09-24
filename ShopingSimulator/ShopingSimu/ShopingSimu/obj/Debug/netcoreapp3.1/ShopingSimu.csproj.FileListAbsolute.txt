@@ -1,0 +1,13 @@
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\bin\Debug\netcoreapp3.1\ShopingSimu.exe
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\bin\Debug\netcoreapp3.1\ShopingSimu.deps.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\bin\Debug\netcoreapp3.1\ShopingSimu.runtimeconfig.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\bin\Debug\netcoreapp3.1\ShopingSimu.runtimeconfig.dev.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\bin\Debug\netcoreapp3.1\ShopingSimu.dll
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\bin\Debug\netcoreapp3.1\ShopingSimu.pdb
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\obj\Debug\netcoreapp3.1\ShopingSimu.csprojAssemblyReference.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\obj\Debug\netcoreapp3.1\ShopingSimu.AssemblyInfoInputs.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\obj\Debug\netcoreapp3.1\ShopingSimu.AssemblyInfo.cs
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\obj\Debug\netcoreapp3.1\ShopingSimu.csproj.CoreCompileInputs.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\obj\Debug\netcoreapp3.1\ShopingSimu.dll
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\obj\Debug\netcoreapp3.1\ShopingSimu.pdb
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\ShopingSimulator\ShopingSimu\ShopingSimu\obj\Debug\netcoreapp3.1\ShopingSimu.genruntimeconfig.cache
