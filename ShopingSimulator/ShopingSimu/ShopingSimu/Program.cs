@@ -6,9 +6,10 @@ namespace ShopingSimu
     {
         static void Main(string[] args)
         {
-            Customer customer = new Customer();
+            // Make a instans of class called Shop
+            Shop shop = new Shop();
+            shop.NewCustomer();
 
-            customer.NewCustomer();
         }
     }
 }
