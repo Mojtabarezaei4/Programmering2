@@ -4,9 +4,9 @@ using System.Text;
 
 namespace ShopingSimu
 {
-    class Products
+    class Color : Weight
     {
-        // A variable for the name
-        public String _producName;        
+        // A variable for the color
+        public string _color;
     }
 }

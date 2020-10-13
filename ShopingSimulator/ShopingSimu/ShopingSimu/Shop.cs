@@ -34,66 +34,58 @@ namespace ShopingSimu
 
         public void ProductsOrder()
         {
-            // Showing the customer the list of products which exist in the shop and also asking for the ordering
-            Console.WriteLine("Choose your product/products: ");
-            Console.WriteLine();
-            Console.WriteLine("1. 1kg Potato" + "\n" +
-                                "2. 1kg tomato" + "\n" +
-                                "3. 1kg meat" + "\n" +
-                                "0. Finish your shoping.");
 
-            // Importing the products class called Products
-            Products pro = new Products();
+            // Importing the Brand class called Brand which is grandchild of Products
+            Brand product = new Brand();
 
-            // Just a variabel for take in the orders
-            int _products;
+            // A list for store the orders.
+            List<String> productList = new List<string>();
+
+            int buyingOptions = 0;
 
             // A loop for customer can buy as long as it wants
             while (true)
             {
-                // Try-catch for if customer don't write any thing so it wouldn't count
-                try
-                {
-                    _products = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Do you have any orders?");
+                Console.WriteLine("1. To order");
+                Console.WriteLine("2. To leave");
+
+                buyingOptions = Convert.ToInt32(Console.ReadLine());
+                
+                // Asking for orders
+                if (buyingOptions == 1) {
+                    Console.WriteLine("What do you want?");
+                    productList.Add(product._producName = Console.ReadLine());
+
+                    Console.WriteLine("How much of the product?");
+                    productList.Add(product._weight = Console.ReadLine());
+
+                    Console.WriteLine("Which Color?");
+                    productList.Add(product._color = Console.ReadLine());
+
+                    Console.WriteLine("Which brand?");
+                    productList.Add(product._brand = Console.ReadLine());
                 }
-                catch (Exception)
-                {
-                    Console.WriteLine("You chose wrong option." + "\n" + "Choose one of the given numbers");
-                    continue;
+                else {
+                    break;
                 }
-
-                // Here can customer order 
-                switch (_products)
-                {
-                    case 1:
-                        pro._productList.Add("1kg potato");
-                        continue;
-                    case 2:
-                        pro._productList.Add("1kg tomato");
-                        continue;
-
-                    case 3:
-                        pro._productList.Add("1kg meat");
-                        continue;
-
-                    default:
-                        continue;
-
-                    case 0:
-                        break;
-                }
-                break;
             }
 
             // Converting a list to an array list
-            pro._productList.ToArray();
+            productList.ToArray();
 
             Console.WriteLine("You ordered the following products: ");
 
             // Showing the orders to the customer
-            foreach (var ProductList in pro._productList)
+            if(productList != null)
             {
-                Console.WriteLine(ProductList);
+                foreach (var ProductList in productList)
+                {
+                    Console.WriteLine(ProductList);
+                }
+            }
+            else {
+                Console.WriteLine("Nothing!");
             }
         }
     }
