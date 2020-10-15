@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace ShopingSimu
@@ -39,7 +40,7 @@ namespace ShopingSimu
             Brand product = new Brand();
 
             // A list for store the orders.
-            List<String> productList = new List<string>();
+            List<String> shopingCart = new List<string>();
 
             int buyingOptions = 0;
 
@@ -55,31 +56,28 @@ namespace ShopingSimu
                 // Asking for orders
                 if (buyingOptions == 1) {
                     Console.WriteLine("What do you want?");
-                    productList.Add(product._producName = Console.ReadLine());
+                    shopingCart.Add(product._producName = Console.ReadLine());
 
                     Console.WriteLine("How much of the product?");
-                    productList.Add(product._weight = Console.ReadLine());
+                    shopingCart.Add(product._weight = Console.ReadLine());
 
                     Console.WriteLine("Which Color?");
-                    productList.Add(product._color = Console.ReadLine());
+                    shopingCart.Add(product._color = Console.ReadLine());
 
                     Console.WriteLine("Which brand?");
-                    productList.Add(product._brand = Console.ReadLine());
+                    shopingCart.Add(product._brand = Console.ReadLine());
                 }
                 else {
                     break;
                 }
             }
 
-            // Converting a list to an array list
-            productList.ToArray();
-
             Console.WriteLine("You ordered the following products: ");
 
             // Showing the orders to the customer
-            if(productList != null)
+            if(shopingCart.Any())
             {
-                foreach (var ProductList in productList)
+                foreach (var ProductList in shopingCart)
                 {
                     Console.WriteLine(ProductList);
                 }
