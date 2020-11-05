@@ -49,15 +49,15 @@ namespace Calculator
 
         private void Button_Click_CE(object sender, RoutedEventArgs e)
         {
-
+            TextFied.Text = String.Empty;
         }
         private void Button_Click_C(object sender, RoutedEventArgs e)
         {
-
+            TextFied.Text = String.Empty;
         }
         private void Button_Click_BackSpace(object sender, RoutedEventArgs e)
         {
-
+            backSpace();
         }
         private void Button_Click_Division(object sender, RoutedEventArgs e)
         {
@@ -86,6 +86,23 @@ namespace Calculator
         private void Button_Click_Dot(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        /** A method for delete the last charachter
+         */
+        private void backSpace()
+        {
+            string text = TextFied.Text;
+
+            if(text.Length > 1)
+            {
+                text = text.Substring(0, text.Length - 1);
+            }
+            else
+            {
+                text = "";
+            }
+            TextFied.Text = text;
         }
 
     }
