@@ -8,9 +8,8 @@
         Title="Calculator" Height="600" Width="400">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="1*">
-                
-            </RowDefinition>
+            <RowDefinition Height="0.5*"/>
+            <RowDefinition Height="0.5*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
         
@@ -28,7 +27,7 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button Click="Button_Click_CE" Grid.Row="0" Grid.Column="0" Content="CE" FontSize="20" BorderBrush="Transparent" Background="#F6F6F6"/>
+            <Button Click="Button_Click_AC" Grid.Row="0" Grid.Column="0" Content="AC" FontSize="20" BorderBrush="Transparent" Background="#F6F6F6"/>
             <Button Click="Button_Click_C" Grid.Row="0" Grid.Column="1" Content="C" FontSize="20" BorderBrush="Transparent" Background="#F6F6F6"/>
             <Button Click="Button_Click_BackSpace" Grid.Row="0" Grid.Column="2" Content="⌫" FontSize="20" BorderBrush="Transparent" Background="#F6F6F6"/>
             <Button Click="Button_Click_Division" Grid.Row="0" Grid.Column="3" Content="÷" FontSize="40" BorderBrush="Transparent" Background="#F6F6F6"/>
@@ -49,7 +48,8 @@
             <Button Click="Button_Click" Grid.Row="4" Grid.Column="1" Content="0" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
             <Button Click="Button_Click_Dot" Grid.Row="4" Grid.Column="2" Content="." FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
         </Grid>
-        <TextBlock Name="TextFied" FontSize="40" FontWeight="Bold" Background="#EEEEEE" HorizontalAlignment="Right"/>
+        <TextBlock Grid.Row="0" Name="PreviousTextField" FontSize="40" FontWeight="Bold" Background="#EEEEEE" HorizontalAlignment="Right"/>
+        <TextBlock Grid.Row="1" Name="CurrentTextField" FontSize="40" FontWeight="Bold" Background="#EEEEEE" HorizontalAlignment="Right"/>
 
     </Grid>
 </Window>
