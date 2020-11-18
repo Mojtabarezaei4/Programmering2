@@ -49,6 +49,7 @@ namespace Calculator
                     case "✕":
                     case "−":
                     case "+":
+                        if (CurrentTextField.Text == string.Empty) return;
                         PreviousTextField.Text = CurrentTextField.Text + button.Content;
                         CurrentTextField.Text = string.Empty;
                         break;
@@ -68,54 +69,37 @@ namespace Calculator
             CurrentTextField.Text = String.Empty;
             PreviousTextField.Text = String.Empty;
         }
-        //Done
         private void Button_Click_C(object sender, RoutedEventArgs e)
         {
             CurrentTextField.Text = String.Empty;
         }
-        //Done
         private void Button_Click_BackSpace(object sender, RoutedEventArgs e)
         {
             BackSpace();
         }
         private void Button_Click_Plus_Minus(object sender, RoutedEventArgs e)
         {
-            if (CurrentTextField.Text.Contains('-'))
-            {
-
-
-            }
-            else
-            {
-                CurrentTextField.Text = '-' + CurrentTextField.Text;
-            }
+            NegativePositiveMaker();
         }
 
         // Calculator class
 
-        // Constructor
-        protected void Constructor()
+        // Make the number negative or positive
+        protected void NegativePositiveMaker()
         {
-            // this.CurrentTextField = CurrentTextField
-            this.CurrentTextField = CurrentTextField;
+            if (CurrentTextField.Text.Contains('-'))
+            {
+                double positiveNumber = Convert.ToDouble(CurrentTextField.Text) * -1;
+                CurrentTextField.Text = Convert.ToString(positiveNumber);
 
-            // this.PreviousTextField = PreviousTextField
-            this.PreviousTextField = PreviousTextField;
-            // clear()
-            Clear();
+            }
+            else
+            {
+                double negativeNumber = Convert.ToDouble(CurrentTextField.Text) * -1;
+                CurrentTextField.Text = Convert.ToString(negativeNumber);
+            }
         }
-
-        // clear()
-        protected void Clear()
-        {
-            // this.CurrentTextField = ""
-            this.CurrentTextField.Text = string.Empty;
-            // this.PreviousTextField = ""
-            this.PreviousTextField.Text = string.Empty;
-            // this.operation = null
-        }
-
-
+        
         /** A method for delete the last charachter
          */
         private void BackSpace()
@@ -136,11 +120,8 @@ namespace Calculator
         // appendNumber
         protected void AppendNumber(object buttonContent)
         {
-            // If CurrentTextField === '.' & CurrentTextField contains '.' so just return nothing
             if (CurrentTextField.Text.Contains(".")) return;
-            // Get the CurrentTextField = CurrentTextField to string + CurrentTextField(button.content) to string
             this.CurrentTextField.Text = CurrentTextField.Text + buttonContent;
-
         }
 
         // choose operation
@@ -151,6 +132,7 @@ namespace Calculator
             // If PreviousTextField !== '' then Compute()
             if (PreviousTextField.Text != string.Empty)
             {
+                
                 Compute();
             }
             this.PreviousTextField.Text = this.CurrentTextField.Text;
@@ -162,21 +144,15 @@ namespace Calculator
         protected void Compute()
         {
             double computation = 0;
-            // Var prevNumber = parseFloat(PreviousTextField)
+
             string[] numOne;
             numOne = PreviousTextField.Text.Split('+', '−', '✕', '÷');
+
             double prevNumber = Convert.ToDouble(numOne[0]);
-            // Var currentNumber =  parseFloat(CurrentTextField)
             double currentNumber = Convert.ToDouble(CurrentTextField.Text);
-            // if prevNumber != a number || currentNumber != a number so just return
+
             if (double.IsNaN(prevNumber) || double.IsNaN(currentNumber)) return;
-            
-            // Switch (theOperation)
-            // case + 
-            // prevNumber + currentNumber
-            // .
-            // .
-            // .
+
             if (PreviousTextField.Text.Contains("+"))
             {
                 computation = prevNumber + currentNumber;
@@ -193,23 +169,10 @@ namespace Calculator
             {
                 computation = prevNumber / currentNumber;
             }
-            // CurrentTextField = computation
-            this.CurrentTextField.Text = Convert.ToString(computation);
+            this.CurrentTextField.Text = Convert.ToString(Math.Round(computation,4));
             // operation = undefind
-            // PreviousTextField = ''
             PreviousTextField.Text = string.Empty;
 
-            UpdateDisplay();
-        }
-
-        // Update display
-        protected void UpdateDisplay()
-        {
-            // CurrentTextField = CurrentTextField
-            this.CurrentTextField.Text = this.CurrentTextField.Text;
-
-            // PreviousTextField = PreviousTextField
-            this.CurrentTextField.Text = this.CurrentTextField.Text;
         }
 
         // Calculator class
