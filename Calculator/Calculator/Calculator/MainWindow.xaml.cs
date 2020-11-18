@@ -21,6 +21,7 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
+        Model model = new Model();
         public MainWindow()
         {
             InitializeComponent();
@@ -28,7 +29,7 @@ namespace Calculator
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            if (sender is Button button)
+            if (e.Source is Button button)
             {
                 switch (button.Content)
                 {
@@ -43,6 +44,19 @@ namespace Calculator
                     case "8":
                     case "9":
                         CurrentTextField.Text += button.Content;
+                        break;
+                    case "÷":
+                    case "✕":
+                    case "−":
+                    case "+":
+                        PreviousTextField.Text = CurrentTextField.Text + button.Content;
+                        CurrentTextField.Text = string.Empty;
+                        break;
+                    case "=":
+                        ChooseOperation(button.Content);
+                        break;
+                    case ".":
+                        AppendNumber(button.Content);
                         break;
                 }
             }
@@ -62,27 +76,7 @@ namespace Calculator
         //Done
         private void Button_Click_BackSpace(object sender, RoutedEventArgs e)
         {
-            backSpace();
-        }
-        private void Button_Click_Division(object sender, RoutedEventArgs e)
-        {
-            CurrentTextField.Text = Convert.ToInt32("-3") + "";
-        }
-        private void Button_Click_Multiplication(object sender, RoutedEventArgs e)
-        {
-
-        }
-        private void Button_Click_Minus(object sender, RoutedEventArgs e)
-        {
-
-        }
-        private void Button_Click_Plus(object sender, RoutedEventArgs e)
-        {
-
-        }
-        private void Button_Click_Equal(object sender, RoutedEventArgs e)
-        {
-
+            BackSpace();
         }
         private void Button_Click_Plus_Minus(object sender, RoutedEventArgs e)
         {
@@ -96,17 +90,11 @@ namespace Calculator
                 CurrentTextField.Text = '-' + CurrentTextField.Text;
             }
         }
-        private void Button_Click_Dot(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-
 
         // Calculator class
 
         // Constructor
-        protected void constructor()
+        protected void Constructor()
         {
             // this.CurrentTextField = CurrentTextField
             this.CurrentTextField = CurrentTextField;
@@ -114,23 +102,23 @@ namespace Calculator
             // this.PreviousTextField = PreviousTextField
             this.PreviousTextField = PreviousTextField;
             // clear()
-            clear();
+            Clear();
         }
 
         // clear()
-        protected void clear()
+        protected void Clear()
         {
             // this.CurrentTextField = ""
             this.CurrentTextField.Text = string.Empty;
             // this.PreviousTextField = ""
-            this.PreviousTextField.Text = string.Empty; ;
+            this.PreviousTextField.Text = string.Empty;
             // this.operation = null
         }
 
 
         /** A method for delete the last charachter
          */
-        private void backSpace()
+        private void BackSpace()
         {
             string text = CurrentTextField.Text;
 
@@ -146,64 +134,82 @@ namespace Calculator
         }
 
         // appendNumber
-        protected void appendNumber()
+        protected void AppendNumber(object buttonContent)
         {
             // If CurrentTextField === '.' & CurrentTextField contains '.' so just return nothing
+            if (CurrentTextField.Text.Contains(".")) return;
             // Get the CurrentTextField = CurrentTextField to string + CurrentTextField(button.content) to string
+            this.CurrentTextField.Text = CurrentTextField.Text + buttonContent;
 
         }
 
-
         // choose operation
-        protected void chooseOperation()
+        protected void ChooseOperation(object operation)
         {
             // If CurrentTextField === '' then just return
-            if (CurrentTextField.Text == string.Empty)
-            {
-                return;
-            }
+            if (CurrentTextField.Text == string.Empty) return;
             // If PreviousTextField !== '' then Compute()
             if (PreviousTextField.Text != string.Empty)
             {
-                compute();
+                Compute();
             }
+            this.PreviousTextField.Text = this.CurrentTextField.Text;
+            CurrentTextField.Text = string.Empty;
             
         }
 
-
-
         // Compute
-        protected void compute()
+        protected void Compute()
         {
-            // var computation
-            float computation;
+            double computation = 0;
             // Var prevNumber = parseFloat(PreviousTextField)
-            float prevNumber = float.Parse(PreviousTextField.Text);
+            string[] numOne;
+            numOne = PreviousTextField.Text.Split('+', '−', '✕', '÷');
+            double prevNumber = Convert.ToDouble(numOne[0]);
             // Var currentNumber =  parseFloat(CurrentTextField)
-            float currentNumber = float.Parse(CurrentTextField.Text);
+            double currentNumber = Convert.ToDouble(CurrentTextField.Text);
             // if prevNumber != a number || currentNumber != a number so just return
             if (double.IsNaN(prevNumber) || double.IsNaN(currentNumber)) return;
+            
             // Switch (theOperation)
-
             // case + 
             // prevNumber + currentNumber
             // .
             // .
             // .
+            if (PreviousTextField.Text.Contains("+"))
+            {
+                computation = prevNumber + currentNumber;
+            }
+            if (PreviousTextField.Text.Contains("−"))
+            {
+                computation = prevNumber - currentNumber;
+            }
+            if (PreviousTextField.Text.Contains("✕"))
+            {
+                computation = prevNumber * currentNumber;
+            }
+            if (PreviousTextField.Text.Contains("÷"))
+            {
+                computation = prevNumber / currentNumber;
+            }
             // CurrentTextField = computation
-            CurrentTextField.Text = "" + computation;
+            this.CurrentTextField.Text = Convert.ToString(computation);
             // operation = undefind
             // PreviousTextField = ''
+            PreviousTextField.Text = string.Empty;
+
+            UpdateDisplay();
         }
 
         // Update display
-        protected void updateDisplay()
+        protected void UpdateDisplay()
         {
             // CurrentTextField = CurrentTextField
-            this.CurrentTextField.Text = CurrentTextField.Text;
+            this.CurrentTextField.Text = this.CurrentTextField.Text;
 
             // PreviousTextField = PreviousTextField
-            this.CurrentTextField.Text = CurrentTextField.Text;
+            this.CurrentTextField.Text = this.CurrentTextField.Text;
         }
 
         // Calculator class
