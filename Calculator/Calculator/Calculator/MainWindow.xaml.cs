@@ -49,6 +49,10 @@ namespace Calculator
                     case "✕":
                     case "−":
                     case "+":
+                        if (PreviousTextField.Text != string.Empty && CurrentTextField.Text == string.Empty)
+                        {
+                            PreviousTextField.Text += button.Content;
+                        }
                         if (CurrentTextField.Text == string.Empty) return;
                         PreviousTextField.Text = CurrentTextField.Text + button.Content;
                         CurrentTextField.Text = string.Empty;
@@ -170,11 +174,10 @@ namespace Calculator
                 computation = prevNumber / currentNumber;
             }
             this.CurrentTextField.Text = Convert.ToString(Math.Round(computation,4));
-            // operation = undefind
             PreviousTextField.Text = string.Empty;
 
         }
-
+        
         // Calculator class
     }
 

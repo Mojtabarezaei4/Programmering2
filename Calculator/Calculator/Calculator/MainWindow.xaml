@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Calculator" Height="600" Width="400">
     <Grid>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="0.5*"/>
             <RowDefinition Height="0.5*"/>
@@ -27,29 +28,29 @@
                 <RowDefinition/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Button Click="Button_Click_AC" Grid.Row="0" Grid.Column="0" Content="AC" FontSize="20" BorderBrush="Transparent" Background="#F6F6F6"/>
-            <Button Click="Button_Click_C" Grid.Row="0" Grid.Column="1" Content="C" FontSize="20" BorderBrush="Transparent" Background="#F6F6F6"/>
-            <Button Click="Button_Click_BackSpace" Grid.Row="0" Grid.Column="2" Content="⌫" FontSize="20" BorderBrush="Transparent" Background="#F6F6F6"/>
-            <Button Click="Button_Click" Grid.Row="0" Grid.Column="3" Content="÷" FontSize="40" BorderBrush="Transparent" Background="#F6F6F6"/>
-            <Button Click="Button_Click" Grid.Row="1" Grid.Column="3" Content="✕" FontSize="30" BorderBrush="Transparent" Background="#F6F6F6"/>
-            <Button Click="Button_Click" Grid.Row="2" Grid.Column="3" Content="−" FontSize="40" BorderBrush="Transparent" Background="#F6F6F6"/>
-            <Button Click="Button_Click" Grid.Row="3" Grid.Column="3" Content="+" FontSize="40" BorderBrush="Transparent" Background="#F6F6F6"/>
-            <Button Click="Button_Click" Grid.Row="4" Grid.Column="3" Content="=" FontSize="40" BorderBrush="Transparent" Background="#7DCAE5"/>
-            <Button Click="Button_Click" Grid.Row="1" Grid.Column="0" Content="1" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="1" Grid.Column="1" Content="2" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="1" Grid.Column="2" Content="3" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="2" Grid.Column="0" Content="4" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="2" Grid.Column="1" Content="5" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="2" Grid.Column="2" Content="6" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="3" Grid.Column="0" Content="7" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="3" Grid.Column="1" Content="8" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="3" Grid.Column="2" Content="9" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click_Plus_Minus" Grid.Row="4" Grid.Column="0" Content="+/-" FontSize="20" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="4" Grid.Column="1" Content="0" FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
-            <Button Click="Button_Click" Grid.Row="4" Grid.Column="2" Content="." FontSize="20" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF"/>
+            <Button Click="Button_Click_AC" Grid.Row="0" Grid.Column="0" Content="AC" FontSize="20" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
+            <Button Click="Button_Click_C" Grid.Row="0" Grid.Column="1" Content="C" FontSize="20" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
+            <Button Click="Button_Click_BackSpace" Grid.Row="0" Grid.Column="2" Content="⌫" FontSize="20" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="0" Grid.Column="3" Content="÷" FontSize="40" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="1" Grid.Column="3" Content="✕" FontSize="30" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="2" Grid.Column="3" Content="−" FontSize="40" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="3" Grid.Column="3" Content="+" FontSize="40" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="4" Grid.Column="3" Content="=" FontSize="40" BorderThickness="0" BorderBrush="Transparent" Background="#7DCAE5" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="1" Grid.Column="0" Content="1" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="1" Grid.Column="1" Content="2" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="1" Grid.Column="2" Content="3" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="2" Grid.Column="0" Content="4" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="2" Grid.Column="1" Content="5" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="2" Grid.Column="2" Content="6" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="3" Grid.Column="0" Content="7" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="3" Grid.Column="1" Content="8" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="3" Grid.Column="2" Content="9" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click_Plus_Minus" Grid.Row="4" Grid.Column="0" Content="+/-" BorderThickness="0" FontSize="20" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="4" Grid.Column="1" Content="0" FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Click="Button_Click" Grid.Row="4" Grid.Column="2" Content="." FontSize="20" BorderThickness="0" FontWeight="Bold" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
         </Grid>
-        <TextBlock Grid.Row="0" Name="PreviousTextField" FontSize="40" FontWeight="Bold" Background="#EEEEEE" HorizontalAlignment="Right"/>
-        <TextBlock Grid.Row="1" Name="CurrentTextField" FontSize="40" FontWeight="Bold" Background="#EEEEEE" HorizontalAlignment="Right"/>
+        <TextBlock Grid.Row="0" Name="PreviousTextField" FontSize="35" FontWeight="Bold" TextAlignment="Right" Opacity="0.8"/>
+        <TextBlock Grid.Row="1" Name="CurrentTextField" FontSize="40" FontWeight="Bold" TextAlignment="Right"/>
 
     </Grid>
 </Window>
