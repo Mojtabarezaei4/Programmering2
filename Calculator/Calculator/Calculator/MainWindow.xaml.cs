@@ -21,7 +21,6 @@ namespace Calculator
     /// </summary>
     public partial class MainWindow : Window
     {
-        Model model = new Model();
         public MainWindow()
         {
             InitializeComponent();
@@ -104,8 +103,7 @@ namespace Calculator
             }
         }
         
-        /** A method for delete the last charachter
-         */
+        // A method for delete the last charachter
         private void BackSpace()
         {
             string text = CurrentTextField.Text;
@@ -177,7 +175,7 @@ namespace Calculator
             PreviousTextField.Text = string.Empty;
 
         }
-        
+
         // Calculator class
     }
 
