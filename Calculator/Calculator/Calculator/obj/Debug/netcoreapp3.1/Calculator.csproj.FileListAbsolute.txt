@@ -1,6 +1,3 @@
-C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.csprojAssemblyReference.cache
-C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\App.g.cs
-C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator_MarkupCompile.cache
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.exe
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.deps.json
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.runtimeconfig.json
@@ -8,6 +5,8 @@ C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Progra
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.dll
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\bin\Debug\netcoreapp3.1\Calculator.pdb
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator_MarkupCompile.cache
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator_MarkupCompile.lref
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\MainWindow.baml
 C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\programmering2\GitHub\Programmering2\Calculator\Calculator\Calculator\obj\Debug\netcoreapp3.1\Calculator.g.resources
