@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Calculator"
         mc:Ignorable="d"
-        Title="Calculator" Height="600" Width="400" Icon="/Cal.png">
+        Title="Calculator" Height="600" Width="400" Icon="/Cal.png" MaxWidth="500" MaxHeight="700" MinHeight="500" MinWidth="355">
     <Grid>
         
         <Grid.RowDefinitions>
