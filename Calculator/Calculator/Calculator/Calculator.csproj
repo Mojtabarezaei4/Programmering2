@@ -6,4 +6,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Cal.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Cal.png" />
+  </ItemGroup>
+
 </Project>

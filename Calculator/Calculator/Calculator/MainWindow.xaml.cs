@@ -176,6 +176,11 @@ namespace Calculator
 
         }
 
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
+
         // Calculator class
     }
 
