@@ -34,7 +34,7 @@
             <Button Click="Button_Click" Grid.Row="2" Grid.Column="3" Content="−" FontSize="40" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
             <Button Click="Button_Click" Grid.Row="3" Grid.Column="3" Content="+" FontSize="40" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
             <Button Click="Button_Click" Grid.Row="4" Grid.Column="3" Content="=" FontSize="40" BorderThickness="0" BorderBrush="Transparent" Background="#7DCAE5" Padding="0,0,0,0"/>
-            <Button Click="Button_Click_Plus_Minus" Grid.Row="4" Grid.Column="0" Content="+/-" BorderThickness="0" FontSize="20" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
+            <Button Grid.Row="4" Grid.Column="0" Content="+/-" BorderThickness="0" FontSize="20" BorderBrush="Transparent" Background="#FFFFFF" Padding="0,0,0,0"/>
             <!-- Controll btns -->
             <Button Click="Button_Click_AC" Grid.Row="0" Grid.Column="0" Content="AC" FontSize="20" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>
             <Button Click="Button_Click_C" Grid.Row="0" Grid.Column="1" Content="C" FontSize="20" BorderThickness="0" BorderBrush="Transparent" Background="#F6F6F6" Padding="0,0,0,0"/>

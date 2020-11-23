@@ -85,8 +85,6 @@ namespace Calculator
             NegativePositiveMaker();
         }
 
-        // Calculator class
-
         // Make the number negative or positive
         protected void NegativePositiveMaker()
         {
@@ -175,13 +173,7 @@ namespace Calculator
             PreviousTextField.Text = string.Empty;
 
         }
-
-        private void Button_MouseEnter(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        // Calculator class
+        
     }
 
 
