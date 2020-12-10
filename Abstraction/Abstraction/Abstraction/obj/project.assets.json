@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mojtaba.rezaei\\Documents\\Github\\Programmering2\\Calculator\\Calculator\\Calculator\\Calculator.csproj",
-      "projectName": "Calculator",
-      "projectPath": "C:\\Users\\Mojtaba.rezaei\\Documents\\Github\\Programmering2\\Calculator\\Calculator\\Calculator\\Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\Mojtaba.rezaei\\Documents\\Skolans uppgifter\\Github\\Programmering2\\Abstraction\\Abstraction\\Abstraction\\Abstraction.csproj",
+      "projectName": "Abstraction",
+      "projectPath": "C:\\Users\\Mojtaba.rezaei\\Documents\\Skolans uppgifter\\Github\\Programmering2\\Abstraction\\Abstraction\\Abstraction\\Abstraction.csproj",
       "packagesPath": "C:\\Users\\Mojtaba.rezaei\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mojtaba.rezaei\\Documents\\Github\\Programmering2\\Calculator\\Calculator\\Calculator\\obj\\",
+      "outputPath": "C:\\Users\\Mojtaba.rezaei\\Documents\\Skolans uppgifter\\Github\\Programmering2\\Abstraction\\Abstraction\\Abstraction\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mojtaba.rezaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,9 +58,6 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
-          },
-          "Microsoft.WindowsDesktop.App.WPF": {
-            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
