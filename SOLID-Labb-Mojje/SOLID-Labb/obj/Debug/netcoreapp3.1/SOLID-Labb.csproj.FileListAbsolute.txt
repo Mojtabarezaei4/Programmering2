@@ -1,0 +1,13 @@
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\bin\Debug\netcoreapp3.1\SOLID-Labb.exe
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\bin\Debug\netcoreapp3.1\SOLID-Labb.deps.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\bin\Debug\netcoreapp3.1\SOLID-Labb.runtimeconfig.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\bin\Debug\netcoreapp3.1\SOLID-Labb.runtimeconfig.dev.json
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\bin\Debug\netcoreapp3.1\SOLID-Labb.dll
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\bin\Debug\netcoreapp3.1\SOLID-Labb.pdb
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\obj\Debug\netcoreapp3.1\SOLID-Labb.csprojAssemblyReference.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\obj\Debug\netcoreapp3.1\SOLID-Labb.AssemblyInfoInputs.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\obj\Debug\netcoreapp3.1\SOLID-Labb.AssemblyInfo.cs
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\obj\Debug\netcoreapp3.1\SOLID-Labb.csproj.CoreCompileInputs.cache
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\obj\Debug\netcoreapp3.1\SOLID-Labb.dll
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\obj\Debug\netcoreapp3.1\SOLID-Labb.pdb
+C:\Users\Mojtaba.rezaei\Documents\Skolans uppgifter\Github\Programmering2\SOLID-Labb-Mojje\SOLID-Labb\obj\Debug\netcoreapp3.1\SOLID-Labb.genruntimeconfig.cache

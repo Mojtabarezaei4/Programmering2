@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb.csproj": {}
+    "C:\\Users\\Mojtaba.rezaei\\Documents\\Skolans uppgifter\\Github\\Programmering2\\SOLID-Labb-Mojje\\SOLID-Labb\\SOLID-Labb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb.csproj": {
+    "C:\\Users\\Mojtaba.rezaei\\Documents\\Skolans uppgifter\\Github\\Programmering2\\SOLID-Labb-Mojje\\SOLID-Labb\\SOLID-Labb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb.csproj",
+        "projectUniqueName": "C:\\Users\\Mojtaba.rezaei\\Documents\\Skolans uppgifter\\Github\\Programmering2\\SOLID-Labb-Mojje\\SOLID-Labb\\SOLID-Labb.csproj",
         "projectName": "SOLID-Labb",
-        "projectPath": "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb.csproj",
-        "packagesPath": "C:\\Users\\nikla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikla\\source\\repos\\PRRPRR02-TE18D\\SOLID-Labb\\SOLID-Labb\\SOLID-Labb\\obj\\",
+        "projectPath": "C:\\Users\\Mojtaba.rezaei\\Documents\\Skolans uppgifter\\Github\\Programmering2\\SOLID-Labb-Mojje\\SOLID-Labb\\SOLID-Labb.csproj",
+        "packagesPath": "C:\\Users\\Mojtaba.rezaei\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mojtaba.rezaei\\Documents\\Skolans uppgifter\\Github\\Programmering2\\SOLID-Labb-Mojje\\SOLID-Labb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\nikla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mojtaba.rezaei\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

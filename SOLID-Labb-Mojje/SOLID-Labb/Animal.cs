@@ -6,7 +6,7 @@ namespace SOLID_Labb
 {
     public abstract class Animal
     {
-
+        public string _owner;
         public string _color;
 
         public Animal(string color)
@@ -19,5 +19,9 @@ namespace SOLID_Labb
         public abstract void Sleep();
 
         public abstract void Eat();
+        public void TransferOwnership(string owner)
+        {
+            _owner = owner;
+        }
     }
 }

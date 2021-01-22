@@ -6,7 +6,8 @@ namespace SOLID_Labb
 {
     class Dog : Animal
     {
-        string _owner;
+        // same as line 31. see line 31. 
+        // string _owner;
 
         public Dog(string color): base(color)
         {
@@ -27,10 +28,10 @@ namespace SOLID_Labb
         {
             Console.WriteLine("Dog is eating. " + _owner +" is happy!");
         }
-
-        public void TransferOwnership(string owner)
-        {
-            _owner = owner;
-        }
+        // All the animals have the ability to get an owner so this method shodn be in class "Animal". 
+        // public void TransferOwnership(string owner)
+        // {
+        //    _owner = owner;
+        // }
     }
 }
