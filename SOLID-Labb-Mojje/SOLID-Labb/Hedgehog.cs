@@ -13,7 +13,13 @@ namespace SOLID_Labb
 
         public override void Eat()
         {
-            Console.WriteLine("Hedgehog is squeeking!");
+            // "squeeking" isnot eatin!
+            // Console.WriteLine("Hedgehog is squeeking!");
+            Console.WriteLine("Hedgehog is omnomnoming!");
+        }
+
+        public override void OwnersStatus()
+        {
         }
 
         public override void Sleep()
@@ -23,7 +29,9 @@ namespace SOLID_Labb
 
         public override void Speak()
         {
-            Console.WriteLine("Hedgehog is omnomnoming!");
+            // "omnomnoming" isnot speak
+            // Console.WriteLine("Hedgehog is omnomnoming!");
+            Console.WriteLine("Hedgehog is squeeking!");
         }
     }
 }

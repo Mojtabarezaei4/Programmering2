@@ -16,7 +16,9 @@ namespace SOLID_Labb
 
         public override void Eat()
         {
-            Console.WriteLine("Dog is barking!");
+            // "Barking" is not eating...
+            // Console.WriteLine("Dog is barking!");
+            Console.WriteLine("Dog is eating!");
         }
 
         public override void Sleep()
@@ -26,12 +28,14 @@ namespace SOLID_Labb
 
         public override void Speak()
         {
-            Console.WriteLine("Dog is eating. " + _owner +" is happy!");
+            // "eating" is not speak... And the owner should had own metod.
+            // Console.WriteLine("Dog is eating. " + _owner +" is happy!");
+            Console.WriteLine("Dog is wof-wofing!");
         }
-        // All the animals have the ability to get an owner so this method shodn be in class "Animal". 
-        // public void TransferOwnership(string owner)
-        // {
-        //    _owner = owner;
-        // }
+        
+        public override void OwnersStatus()
+        {
+            Console.WriteLine(_owner +" is happy!");
+        }
     }
 }

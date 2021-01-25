@@ -17,12 +17,15 @@ namespace SOLID_Labb
             {
                 if (animal is Dog dog)
                 {
-                    dog.TransferOwnership("Niklas");
+                // defining who is the owner of dog
+                dog._owner= "Niklas";
                 }
 
                 animal.Eat();
                 animal.Sleep();
                 animal.Speak();
+                // for see owner's status
+                animal.OwnersStatus();
                 animal._color = "Grey";
                 Console.WriteLine(animal.GetType().Name + " is " + animal._color);
                 Console.WriteLine();
